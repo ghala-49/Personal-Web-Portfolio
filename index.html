@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ghala | Ultra Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: radial-gradient(circle at top, #1b1b1b, #0a0a0a);
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #6c63ff, #9d4edd, #b983ff);
+            box-shadow: 0 0 40px rgba(140, 90, 255, 0.5);
+        }
+
+        header h1 {
+            font-size: 55px;
+            margin: 0;
+            font-weight: 800;
+            text-shadow: 0 0 20px #d5c4ff;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+
+        /* Sections */
+        .section {
+            width: 85%;
+            margin: 50px auto;
+            padding: 35px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+            animation: fadeIn 1.2s ease;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #d5c4ff;
+            text-shadow: 0 0 10px #6c63ff;
+        }
+
+        /* About */
+        .about p {
+            font-size: 17px;
+            line-height: 1.9;
+            opacity: 0.9;
+        }
+
+        /* Skill Titles */
+        .skill-title {
+            margin-top: 35px;
+            font-size: 22px;
+            color: #b983ff;
+            text-shadow: 0 0 8px #6c63ff;
+            font-weight: 700;
+        }
+
+        /* Skills */
+        .skills span {
+            display: inline-block;
+            background: linear-gradient(135deg, #6c63ff, #9d4edd);
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            box-shadow: 0 0 15px rgba(140, 90, 255, 0.4);
+            transition: 0.3s;
+        }
+
+        .skills span:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 25px rgba(160, 110, 255, 0.7);
+        }
+
+        /* Projects */
+        .project {
+            background: rgba(255, 255, 255, 0.07);
+            padding: 25px;
+            margin: 18px 0;
+            border-radius: 15px;
+            transition: 0.3s;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+        }
+
+        .project:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 0 25px rgba(160, 110, 255, 0.4);
+        }
+
+        .project strong {
+            font-size: 20px;
+            color: #d5c4ff;
+        }
+
+        /* Contact */
+        .contact a {
+            display: inline-block;
+            margin: 10px 10px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #6c63ff, #9d4edd);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: 0.3s;
+            box-shadow: 0 0 20px rgba(140, 90, 255, 0.5);
+        }
+
+        .contact a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(160, 110, 255, 0.8);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 25px;
+            opacity: 0.7;
+            font-size: 15px;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ghala</h1>
+        <p>Computer Science Student • Systems Programmer • Robotics Designer • Full‑Stack Developer</p>
+    </header>
+
+    <div class="section about">
+        <h2>About Me</h2>
+        <p>
+            I'm a Computer Science student with a passion for building powerful systems,
+            interactive graphics, robotics models, and intelligent applications.  
+            I work across multiple layers of technology — from low-level Assembly and Prolog logic,
+            to high-level Java applications, to 3D OpenGL rendering in C++, and mechanical robot
+            modeling in Onshape.
+
+            My projects combine engineering, creativity, and modern software design to create
+            systems that are smart, interactive, and visually dynamic.
+        </p>
+    </div>
+
+    <div class="section skills">
+        <h2>Skills</h2>
+
+        <!-- Programming Languages -->
+        <h3 class="skill-title">Programming Languages</h3>
+        <span>C++</span>
+        <span>Java</span>
+        <span>Assembly Language</span>
+        <span>Prolog</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+
+        <!-- Graphics & Systems -->
+        <h3 class="skill-title">Graphics & Systems</h3>
+        <span>OpenGL</span>
+        <span>Real-Time Rendering</span>
+        <span>Animation Programming</span>
+        <span>Interactive Systems</span>
+
+        <!-- Robotics & CAD -->
+        <h3 class="skill-title">Robotics & CAD</h3>
+        <span>Onshape Modeling</span>
+        <span>Mechanical Simulation</span>
+        <span>Gear Mechanisms</span>
+        <span>Quadruped Robotics</span>
+
+        <!-- CS Core -->
+        <h3 class="skill-title">Computer Science Core</h3>
+        <span>Data Structures</span>
+        <span>Algorithms</span>
+        <span>Networking Fundamentals</span>
+        <span>Problem Solving</span>
+
+        <!-- Software Engineering -->
+        <h3 class="skill-title">Software Engineering</h3>
+        <span>Object-Oriented Programming</span>
+        <span>System Design</span>
+        <span>Debugging</span>
+        <span>Clean Architecture</span>
+
+        <!-- Soft Skills -->
+        <h3 class="skill-title">Soft Skills</h3>
+        <span>Teamwork</span>
+        <span>Creativity</span>
+        <span>Fast Learning</span>
+        <span>Project Planning</span>
+    </div>
+
+    <div class="section projects">
+    <h2>Projects</h2>
+
+    <!-- C++ & OpenGL -->
+    <div class="project">
+        <strong>Interactive 3D System (C++ & OpenGL)</strong>
+        <p>
+            A fully interactive 3D system with animations, transformations, and real-time rendering.
+            Built using OpenGL in C++ with user controls and dynamic visual effects.
+        </p>
+    </div>
+    <!-- Onshape -->
+    <div class="project">
+        <strong>Professional Medal Design (Onshape)</strong>
+        <p>
+            A fully engineered medal designed in Onshape with precise dimensions, layered geometry,
+            and realistic material structure. The model includes accurate constraints, smooth curves,
+            and a professional mechanical layout suitable for manufacturing.
+        </p>
+    </div>
+    <!-- TinkerCAD -->
+    <div class="project">
+        <strong>Robot Dog Model (TinkerCAD)</strong>
+        <p>
+            A mechanical quadruped robot designed in TinkerCAD featuring realistic joints,
+            rotational constraints, and gear‑based leg mechanisms for smooth movement.
+            The model demonstrates structural balance, motion planning, and functional robotics design.
+        </p>
+    </div>
+
+    <!-- Java -->
+    <div class="project">
+        <strong>Online Shopping Application (Java)</strong>
+        <p>
+            A complete e-commerce application with product browsing, cart system, user login,
+            and order management. Built using OOP and clean architecture.
+        </p>
+    </div>
+
+    <!-- C++ Weather -->
+    <div class="project">
+        <strong>Weather Alert System (C++)</strong>
+        <p>
+            A C++ program that detects weather conditions and alerts users during storms or heavy rain.
+            Includes automated notifications and condition analysis.
+        </p>
+    </div>
+
+    <!-- Assembly -->
+    <div class="project">
+        <strong>Assembly Mini-Programs</strong>
+        <p>
+            Low-level programs demonstrating registers, memory access, loops, and system-level operations.
+        </p>
+    </div>
+
+
+    <!-- AI Project -->
+    <div class="project">
+        <strong>AI Model Training (Google Colab)</strong>
+        <p>
+            Trained an artificial intelligence model using Google Colab, including dataset preparation,
+            preprocessing, model building, and evaluation. The project demonstrates practical machine learning
+            workflow and cloud-based training using Python and modern AI libraries.
+        </p>
+    </div>
+
+</div>
+
+
+    <div class="section contact">
+    <h2>Contact</h2>
+
+    <a href="https://github.com/ghala-49" target="_blank">GitHub</a>
+    <a href="mailto:glll44w@gmail.com">Email Me</a>
+</div>
+
+
+    <footer>
+        © 2026 Ghala — Ultra Portfolio Edition
+    </footer>
+
+</body>
+</html>
